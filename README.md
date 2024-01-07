@@ -4,11 +4,13 @@
 This project aims to automate the categorization of YouTube videos into music or sports categories, based on video tags. This process can enhance the efficiency of categorization and aid in targeted advertising.
 
 ## Data Source
-We utilized a dataset from Kaggle, focusing on video records from the United States. The dataset includes around 30,000 records for each category. Non-English characters were removed, and the data was tokenized and stored in separate text files.
+The original dataset is from Kaggle, focusing on video records from the United States. The dataset includes around 30,000 records for each category. Non-English characters were removed, and the data was tokenized and stored in separate text files.
+
+[Resource](https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset?select=US_youtube_trending_data.csv)
 
 ## Methods
 ### Naive Bayes Model
-- **Algorithm**: We employed the Naive Bayes model, using raw count and TF-IDF for word embeddings.
+- **Algorithm**: Employed the Naive Bayes model, using raw count and TF-IDF for word embeddings.
 - **Assumptions**: Assumes independence of features and sequence irrelevance.
 - **Performance Metrics**: Accuracy and time efficiency.
 

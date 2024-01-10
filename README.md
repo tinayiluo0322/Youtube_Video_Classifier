@@ -32,3 +32,8 @@ The original dataset is from Kaggle, focusing on video records from the United S
 ## Conclusion
 - **Naive Bayes Model**: Exhibits high accuracy and time efficiency. Potential improvements include ensemble methods and smoothing for zero probabilities.
 - **RNN Model**: Effective in capturing sequential dependencies but faces limitations with long-term dependencies and variable-length sequences. Performance heavily relies on data quality.
+
+## Project Contributors
+Jiayi Zhou
+
+Annie (Xueqing) Wu
